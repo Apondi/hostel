@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<!--  page information start                -->
+<!--  link to stylesheets, page title etc     -->
+<!--  this information does not display on page   -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Status Hostel - Contact Us</title>
+<link href="css/styleOutline.css" rel="stylesheet" type="text/css">
+<link href="css/formStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!--banner start-->
+<header>
+  
+</header>
+<!--banner end--> 
+<!--navigation start-->
+<nav> 
+  <!-- add menus etc -->
+  <ul>
+    <li><a href="index.html">Home Page</a></li>
+    <li><a href="facilities.html">Facilities</a> </li>
+    <li><a href="cafe.php">Cafe</a></li>
+    <li><a href="gettingHere.html">Getting Here</a></li>
+    <li><a href="contactUs.html">Contact Us</a></li>
+  </ul>
+</nav>
+<!--navigation end--> 
+<!--main content area start-->
+<main>	
+  <form class="form-style" action="php/processInput.php" method="post">
+  <p> Enter your name and contact details and we'll get in touch with you as soon as possible. </p>
+    <ul>
+    <li>
+      <label for="first" class="textLabel">First name:</label>
+      <input type="text" name="first" id="first" placeholder="Enter Your First Name" required/>
+      <label for="first" class="textLabel">Last name:</label>
+      <input type="text" name="last" id="last" placeholder="Enter YourLast Name" required/>
+    </li>
+    <li>
+        <label for="first" class="textLabel">Email Address:</label>
+        <input type="text" name="email" id="email" placeholder="Enter Your Email Address" required/>
+    </li>
+    <li>
+      <textarea name="message" rows="5" cols="30" placeholder="Your Message"></textarea>
+    </li>
+    <li>
+      <input type="submit" name="submit" id="submit" value="Submit" />
+    </li>
+    </ul>
+</form>
+</main>
+<!--main content area end-->
+
+</body>
+</html>
